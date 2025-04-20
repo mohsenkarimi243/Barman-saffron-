@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BARMAN SAFFRON</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Playfair Display', serif;
+      background-color: #4b0000;
+      color: #f5f5dc;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      background-color: #300000;
+    }
+    header h1 {
+      margin: 0;
+      color: gold;
+    }
+    nav a {
+      margin-left: 1rem;
+      color: #f5f5dc;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      text-align: center;
+      padding: 3rem 2rem;
+    }
+    .hero h2 {
+      font-size: 2rem;
+      color: gold;
+    }
+    .section {
+      padding: 2rem;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+    .product-card {
+      background-color: #600000;
+      border: 1px solid gold;
+      padding: 1rem;
+      border-radius: 8px;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background-color: #300000;
+      color: #ccc;
+    }
+    @media (max-width: 768px) {
+      header, .hero, .section {
+        text-align: center;
+      }
+      nav {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>BARMAN SAFFRON</h1>
+    <nav>
+      <a href="#about">About Us</a>
+      <a href="#products">Products</a>
+      <a href="#certs">Certificates</a>
+      <a href="#blog">Blog</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Premium Iranian Saffron</h2>
+    <p>Direct from Khorasan to the World</p>
+  </section>
+
+  <section id="about" class="section">
+    <h2>About Us</h2>
+    <p>BARMAN was founded in the heart of Khorasan. Our mission is to deliver the purity and brilliance of Iranian saffron worldwide — with elegance, trust, and quality.</p>
+  </section>
+
+  <section id="products" class="section">
+    <h2>Our Products</h2>
+    <div class="products">
+      <div class="product-card">
+        <h3>Pouch Packaging</h3>
+        <p>Simple and elegant. Available in 0.5g, 1g, 2g</p>
+      </div>
+      <div class="product-card">
+        <h3>Glass Packaging</h3>
+        <p>Transparent & stylish. Available in 1g, 2g, 5g</p>
+      </div>
+      <div class="product-card">
+        <h3>Tin Packaging</h3>
+        <p>Durable & premium. Available in 1g, 3g, 5g</p>
+      </div>
+      <div class="product-card">
+        <h3>Khatam Packaging</h3>
+        <p>Traditional artistry. Available in 1g, 2g, 4g</p>
+      </div>
+      <div class="product-card">
+        <h3>Crystal Packaging</h3>
+        <p>Elegant and long-lasting. Available in 0.5g, 1g, 2g, 5g</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="certs" class="section">
+    <h2>Certificates</h2>
+    <p>ISO 3632 Certified | Certificate of Origin | Halal | Lab Report | Export License</p>
+  </section>
+
+  <section id="blog" class="section">
+    <h2>Learn More About Saffron</h2>
+    <p>Discover the benefits, uses, and stories behind saffron in our blog.</p>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact Us</h2>
+    <p>Email: mohsenkarimi243@yahoo.com</p>
+    <p>Phone: +98 912 456 4757</p>
+    <p>WhatsApp Available</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 BARMAN SAFFRON. All rights reserved.</p>
+  </footer>
+</body>
+</html>
